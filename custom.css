@@ -3,11 +3,6 @@ html, div, body {
  margin: 0;
 }
 
-div {
-  padding: 0;
-  margin: 0;
-}
-
 .logo {
   background-image: linear-gradient(to right, white, white, black, black);
 }
@@ -21,17 +16,9 @@ div {
   padding: 0;
 }
 
-.row {
-  
-}
-
 .bg-unique {
-  background-image:  url('images/consult.png');
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: contain;
-  
+  background-image:  url('images/slide.jpg');
+  background-size: cover;
 }
 
 
