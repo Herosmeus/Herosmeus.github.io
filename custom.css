@@ -1,14 +1,6 @@
-html {
+html, div, body {
  padding: 0;
  margin: 0;
- overflow-x: hidden;
-}
-
-body {
-  background-color: rgb(62, 128, 133);
-  height: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 div {
@@ -34,11 +26,12 @@ div {
 }
 
 .bg-unique {
-  background-image:  url(Images/consult.jpg);
+  background-image:  url('images/consult.jpg');
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
   background-size: contain;
+  
 }
 
 
