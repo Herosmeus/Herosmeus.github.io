@@ -30,7 +30,15 @@ div {
 }
 
 .row {
-  background-color: rgb(62, 128, 133);
+  
+}
+
+.bg-unique {
+  background-image:  url(Images/consult.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
