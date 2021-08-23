@@ -21,64 +21,60 @@ html, body {
 .bg-unique {
   background-image:  url('images/consult.png');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 .blockquote {
-  font-size: 1.5em;
-  font-family: MonteCarlo;
+  font-size: 0.7em;
+  font-family: Bodoni;
   font-weight: 900;
   text-align: center;
   color: rgb(0, 2, 82);
   padding-top: 5px;
-}
-
-.blockquote-footer {
-  font-size: 1em;
-  font-family: MonteCarlo;
-  font-weight: 900;
-  text-align: center;
-  color: rgb(0, 2, 82);
-  padding-top: 5px;
-  margin-bottom: 0;
 }
 
 .btn {
   background-color: black;
+  box-shadow: none;
+  outline: none;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  color: aliceblue;
+  color: white;
   font-size: 20px;
   font-weight: 900;
   font-family: Bodoni;
   transition-duration: 0.6s;
-  margin-top: -0.75em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .btn:hover {
   background-color: white;
   color: black;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.intro {
+  font-family: Bodoni;
+  font-weight: bold;
+
 }
 
 @media (min-width: 576px) {  
   .blockquote {
-    font-size: 2em;
-    font-family: MonteCarlo;
-    font-weight: 900;
-    text-align: center;
-    color: rgb(0, 2, 82);
-    padding-top: 5px;
-  }
-  
-  .blockquote-footer {
     font-size: 1em;
-    font-family: MonteCarlo;
+    font-family: Bodoni;
     font-weight: 900;
     text-align: center;
     color: rgb(0, 2, 82);
     padding-top: 5px;
-    margin-bottom: 0;
   }
   
   .btn {
@@ -91,33 +87,19 @@ html, body {
     font-weight: 900;
     font-family: Bodoni;
     transition-duration: 0.6s;
-    margin-top: -0.75em;
-  }
-  
-  .btn:hover {
-    background-color: white;
-    color: black;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
   }
 }
   
 @media (min-width: 768px) {
   .blockquote {
-    font-size: 2.5em;
-    font-family: MonteCarlo;
+    font-size: 1.5em;
+    font-family: Bodoni;
     font-weight: 900;
     text-align: center;
     color: rgb(1, 2, 63);
     padding-top: 5px;
-  }
-  
-  .blockquote-footer {
-    font-size: 1em;
-    font-family: MonteCarlo;
-    font-weight: 900;
-    text-align: center;
-    color: rgb(0, 2, 82);
-    padding-top: 5px;
-    margin-bottom: 0;
   }
 
   .btn {
@@ -132,33 +114,19 @@ html, body {
     transition-duration: 0.6s;
     margin-top: -0.75em;
   }
-  
-  .btn:hover {
-    background-color: white;
-    color: black;
-  }
 }
 
 @media (min-width: 1200px) { 
   .blockquote {
-    font-size: 3.5em;
-    font-family: MonteCarlo;
+    font-size: 2em;
+    font-family: Bodoni;
     font-weight: 900;
     text-align: center;
     color: rgb(1, 2, 63);
     padding-top: 5px;
+    line-height: 1.1em;
   }
   
-  .blockquote-footer {
-    font-size: 1em;
-    font-family: MonteCarlo;
-    font-weight: 900;
-    text-align: center;
-    color: rgb(0, 2, 82);
-    padding-top: 5px;
-    margin-bottom: 0;
-  }
-
   .btn {
     background-color: black;
     height: 200px;
@@ -169,11 +137,6 @@ html, body {
     font-weight: 900;
     font-family: Bodoni;
     transition-duration: 0.6s;
-    margin-top: -0.75em;
-  }
-  
-  .btn:hover {
-    background-color: white;
-    color: black;
+    margin-top: 0.5em;
   }
 }
